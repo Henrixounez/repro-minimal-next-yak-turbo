@@ -1,3 +1,9 @@
+import { styled } from "next-yak";
+
+const StyledH1 = styled.h1`
+  color: red;
+`
+
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return <StyledH1>Hello, Next.js!</StyledH1>;
 }
