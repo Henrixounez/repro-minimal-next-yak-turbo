@@ -12,7 +12,7 @@ export default function Page() {
   return (
   <Container>
     <p className="text">
-      Hello, Next.js!
+      Hello, next-yak in turbo 🐮 🚀
     </p>
     </Container>);
 }
